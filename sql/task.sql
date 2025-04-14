@@ -2,7 +2,7 @@
 CREATE TABLE Контейнеры (
     ИД UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     Номер INT,
-    Тип NVARCHAR(255) NOT NULL,  --  Добавлено NOT NULL
+    Тип NVARCHAR(255) NOT NULL,
     Длина DECIMAL(10, 2),
     Ширина DECIMAL(10, 2),
     Высота DECIMAL(10, 2),
@@ -37,8 +37,6 @@ SELECT
     N'"Дата_поступления": "' + CONVERT(VARCHAR, Дата_поступления, 126) + '"}'
 FROM
     Контейнеры;
-    
-    
     
 SELECT
     N'{' +
