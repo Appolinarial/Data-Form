@@ -1,0 +1,34 @@
+{
+    "cities": [
+      { "id": 1, "name": "Москва" },
+      { "id": 2, "name": "Санкт-Петербург" }
+    ],
+    "departments": [
+      { "id": 1, "cityId": 1, "name": "Цех 1" },
+      { "id": 2, "cityId": 1, "name": "Цех 2" },
+      { "id": 3, "cityId": 2, "name": "Цех A" },
+      { "id": 4, "cityId": 2, "name": "Цех B" }
+    ],
+    "employees": [
+      { "id": 1, "departmentId": 1, "name": "Сокольникова Татьяна" },
+      { "id": 2, "departmentId": 1, "name": "Веледин Сергей" },
+      { "id": 3, "departmentId": 1, "name": "Дроздов Михаил" },
+      { "id": 4, "departmentId": 2, "name": "Скрипченко Иван" },
+      { "id": 5, "departmentId": 2, "name": "Павлова Анна" },
+      { "id": 6, "departmentId": 2, "name": "Левшев Петр" },
+      { "id": 7, "departmentId": 3, "name": "Сотникова Светлана" },
+      { "id": 8, "departmentId": 3, "name": "Долгунов Олег" },
+      { "id": 9, "departmentId": 3, "name": "Петленко Максим" },
+      { "id": 10, "departmentId": 4, "name": "Чехов Андрей" },
+      { "id": 11, "departmentId": 4, "name": "Степанова Евгения" },
+      { "id": 12, "departmentId": 4, "name": "Дамаскина Тамара" }
+    ],
+    "brigades": [
+      { "id": 1, "name": "Бригада A" },
+      { "id": 2, "name": "Бригада B" }
+    ],
+    "shifts": [
+      { "id": 1, "name": "Смена 1" },
+      { "id": 2, "name": "Смена 2" }
+    ]
+  }
